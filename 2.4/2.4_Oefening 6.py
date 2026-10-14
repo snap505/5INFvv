@@ -1,6 +1,8 @@
-Gewicht = float(input("Geef je gewicht in kg: "))
-Lengte = float(input("Geef je lengte in m: "))
+# -- Variabelen --
+Gewicht = float(input("Geef je gewicht in kg: ")) # Vraagt het gewicht van de gebruiker
+Lengte = float(input("Geef je lengte in m: ")) # Vraagt de lengte van de gebruiker
 
-BMI = Gewicht / (Lengte * Lengte)
+BMI = Gewicht / (Lengte * Lengte) # berekent de BMI van de gebruiker
 
-print(f"Je BMI is {BMI:.1f}")
+# -- Functies --
+print(f"Je BMI is {BMI:.1f}") # Print de BMI van de gebruiker
